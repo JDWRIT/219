@@ -8,9 +8,6 @@ public class StarBullet : MonoBehaviour
     public Rigidbody rBody;
     float timer = 0f;
 
-    [SerializeField]
-    GameObject bulletBoom;
-
     void FixedUpdate()
     {
         rBody.MovePosition(transform.position + transform.forward * 3);
@@ -28,7 +25,6 @@ public class StarBullet : MonoBehaviour
         {
             collider.gameObject.GetComponent<Starfighter>().Damage();
             this.gameObject.transform.parent.GetComponent<ShipsManager>().ships.Remove(this.gameObject);
-            Instantiate(bulletBoom, this.transform.position, this.transform.rotation);
             Destroy(this.gameObject);
         }
     }

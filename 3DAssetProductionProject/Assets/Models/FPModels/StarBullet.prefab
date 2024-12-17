@@ -28,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 5449389905949648376}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5.8800936, y: 0.14235707, z: 5.8800936}
+  m_LocalPosition: {x: 0.002541, y: -0.004243, z: 0.0014494}
+  m_LocalScale: {x: 20, y: 0.4421, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7004419117148251597}
@@ -50,7 +50,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -97,7 +97,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnShip: {fileID: 0}
   rBody: {fileID: 2190400909188530035}
-  bulletBoom: {fileID: 0}
 --- !u!1001 &7403367404672041510
 PrefabInstance:
   m_ObjectHideFlags: 0

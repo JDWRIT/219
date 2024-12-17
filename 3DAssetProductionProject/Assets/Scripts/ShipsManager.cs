@@ -11,14 +11,13 @@ public class ShipsManager : MonoBehaviour
 
     float timer = 0f;
 
-    int spawnCycle = 0;
+    int spawnCycleTrue = 0;
+    int spawnCycleFalse = 0;
 
     public GameObject shipPrefabTrue;
     public GameObject shipPrefabFalse;
 
     int shipCount = 0;
-
-    public int startingShipsPerSide = 5;
 
     /*void Start()
     {
@@ -39,27 +38,27 @@ public class ShipsManager : MonoBehaviour
         if (side)
         {
             newShip = Instantiate(shipPrefabTrue, this.gameObject.transform);
-            newShip.transform.position = spawnpointsTrue[spawnCycle].transform.position;
-            if (spawnCycle >= spawnpointsTrue.Count)
+            newShip.transform.position = spawnpointsTrue[spawnCycleTrue].transform.position;
+            if (spawnCycleTrue >= spawnpointsTrue.Count - 1)
             {
-                spawnCycle = 0;
+                spawnCycleTrue = 0;
             }
             else
             {
-                spawnCycle++;
+                spawnCycleTrue++;
             }
         }
         else
         {
             newShip = Instantiate(shipPrefabFalse, this.gameObject.transform);
-            newShip.transform.position = spawnpointsFalse[spawnCycle].transform.position;
-            if (spawnCycle >= spawnpointsFalse.Count)
+            newShip.transform.position = spawnpointsFalse[spawnCycleFalse].transform.position;
+            if (spawnCycleFalse >= spawnpointsFalse.Count - 1)
             {
-                spawnCycle = 0;
+                spawnCycleFalse = 0;
             }
             else
             {
-                spawnCycle++;
+                spawnCycleFalse++;
             }
         }
         ships.Add(newShip);
@@ -85,19 +84,19 @@ public class ShipsManager : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        if (timer >= 0.5 && shipCount <= 50)
+        if (timer >= 0.5 && shipCount < 50)
         {
             int random = Random.Range(0, 2);
             if (random == 0) 
             {
                 CreateShip(false);
-                shipCount++;
             }
             else 
             {
                 CreateShip(true);
-                shipCount++;
             }
+                shipCount++;
+            timer = 0;
         }
     }
 }

@@ -33,9 +33,6 @@ public class Starfighter : Agent
     [SerializeField]
     float timeUntilFire;
 
-    [SerializeField]
-    GameObject shipBoom;
-
     float timer = 0f;
 
     void Start()
@@ -136,12 +133,11 @@ public class Starfighter : Agent
         {
             this.gameObject.transform.parent.GetComponent<ShipsManager>().ships.Remove(this.gameObject);
             this.gameObject.transform.parent.GetComponent<ShipsManager>().CreateShip(side);
-            Instantiate(shipBoom, this.transform.position, this.transform.rotation);
             Destroy(this.gameObject);
         }
     }
 
-    /*private void OnDrawGizmos()
+    private void OnDrawGizmos()
     {
         Gizmos.color = Color.green;
         Gizmos.DrawRay(transform.position, velocity);
@@ -156,5 +152,5 @@ public class Starfighter : Agent
         //  Show bounds force
         Gizmos.color = Color.magenta;
         Gizmos.DrawRay(transform.position, boundsForce);
-    }*/
+    }
 }

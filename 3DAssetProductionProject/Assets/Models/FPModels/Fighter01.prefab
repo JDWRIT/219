@@ -86,12 +86,11 @@ MonoBehaviour:
   seekScalar: 1
   evadeDistance: 15
   arriveScalar: 5
-  worldBounds: {x: 0, y: 0, z: 0}
+  worldBounds: {x: 250, y: 250, z: 250}
   boundsScalar: 10
   followScalar: 3
   followRadius: 1
   timeUntilFire: 0
-  shipBoom: {fileID: 0}
 --- !u!65 &6078423400299282273
 BoxCollider:
   m_ObjectHideFlags: 0
