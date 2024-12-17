@@ -898,6 +898,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1017627905}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &71434429
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -24.521
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -314.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.313
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.021384703
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99977136
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 182.451
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 916972267347292442, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_Name
+      value: ModelStarship (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
 --- !u!4 &74815702 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1836207452002543829, guid: 0ed2018f2f3a4224dbbde8c4b4d47413, type: 3}
@@ -2042,6 +2099,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ed2018f2f3a4224dbbde8c4b4d47413, type: 3}
+--- !u!1001 &279691646
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -28.309
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -314.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 29.443
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98964566
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.14353244
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 16.505
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 916972267347292442, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_Name
+      value: ModelStarship (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
 --- !u!1001 &281466573
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4726,6 +4840,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1836207452002543829, guid: 0ed2018f2f3a4224dbbde8c4b4d47413, type: 3}
   m_PrefabInstance: {fileID: 715307470}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &727332324
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -20.995
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -314.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.433
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98964566
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.14353244
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 16.505
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 916972267347292442, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_Name
+      value: ModelStarship
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
 --- !u!1001 &729865137
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5088,6 +5259,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1836207452002543829, guid: 0ed2018f2f3a4224dbbde8c4b4d47413, type: 3}
   m_PrefabInstance: {fileID: 767570315}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &769275239
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -17.873
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -314.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 26.799
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.96393627
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.2661332
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -30.869
+      objectReference: {fileID: 0}
+    - target: {fileID: 572640806824766368, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 916972267347292442, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
+      propertyPath: m_Name
+      value: ModelStarship (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f9132f27200fd0c45bcbb95d04ed0be0, type: 3}
 --- !u!1001 &773315070
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13201,3 +13429,7 @@ SceneRoots:
   - {fileID: 847617673}
   - {fileID: 385812419}
   - {fileID: 614741133}
+  - {fileID: 727332324}
+  - {fileID: 279691646}
+  - {fileID: 769275239}
+  - {fileID: 71434429}
