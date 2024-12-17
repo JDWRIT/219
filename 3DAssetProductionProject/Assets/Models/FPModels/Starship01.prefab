@@ -99,7 +99,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 167ae1a4ce53b024dab473a395a92165, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 68134c9b1ce66c144b44b5d9c1bbf06d, type: 2}
+      objectReference: {fileID: 2100000, guid: ddf94cc5ebded7e4d8609bd5c15dfac2, type: 2}
     - target: {fileID: 919132149155446097, guid: 167ae1a4ce53b024dab473a395a92165, type: 3}
       propertyPath: m_Name
       value: Starship01Uncolored
